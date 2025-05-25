@@ -1,14 +1,46 @@
-# Python
+# Python bytecode
+*.pyc
+*.pyo
+*.pyd
 __pycache__/
-*.py[cod]
-*.egg-info/
-.env
-.venv/
-*.sqlite3
-*.log
+*.pdb
 
-# VSCode
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Dependency directories
+node_modules/
+
+# Chainlit-specific
+.chainlit/
+
+# VS Code settings
 .vscode/
 
-# OS
+# macOS system files
 .DS_Store
+
+# Windows system files
+Thumbs.db
+
+# JetBrains IDEs
+.idea/
+
+# Python version manager
+.python-version
+
+# Package manager lock files
+*.lock
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
