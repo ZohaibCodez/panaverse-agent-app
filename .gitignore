@@ -1,16 +1,19 @@
 # Python
 __pycache__/
-.chainlit/
 .mypy_cache/
+.pytest_cache/
 *.py[cod]
-*.egg-info/
 .env
+.env.*
 .venv/
-*.sqlite3
-*.log
+
+# Chainlit
+.chainlit/
+chainlit.md
 
 # VSCode
 .vscode/
 
 # OS
 .DS_Store
+Thumbs.db
